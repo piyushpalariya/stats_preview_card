@@ -8,26 +8,36 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+  <div id="card">
+    <div id="image_mobile"></div>
+    <div id="description">
+      <h1>Get <span id="insights">insights</span> that help your business grow.</h1>
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      
+      <div id="stats">
+        <div class="stat_desc">
+          <h1 id="num"> 10k+ </h1>
+          <div class="st">companies</div>
+        </div>
+        <div id="middle" class="stat_desc">
+          <h1 id="num">314 </h1>
+          <div class="st">templates</div>
+        </div>
+        <div class="stat_desc">
+          <h1 id="num">12m+</h1>
+          <div class="st">queries</div>
+        </div>
+      </div>
+    </div>
+    <div id="image-header"></div>
+  </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <div>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></div>
+    <div>Coded by <a href="#">piyush palariya</a></div>
   </div>
+  <link rel="stylesheet" href="index.css">
 </body>
 </html>

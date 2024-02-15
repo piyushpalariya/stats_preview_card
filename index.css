@@ -1,0 +1,123 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+#card{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    margin: 100px;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+#image-header{
+
+}
+
+#insights{
+    color: hsl(277, 64%, 61%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    max-width: 300px;
+    margin-bottom: 25px;
+    font-size: 15px;
+}
+
+h1{
+    color: white;
+    max-width: 350px;
+}
+
+.st{
+    color:hsla(0, 0%, 100%, 0.6);
+}
+
+#stats{
+    display: flex;
+}
+
+#description{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.stat_desc{
+    color:hsla(0, 0%, 100%, 0.6)
+}
+
+#middle{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#num{
+    margin-bottom: 5px;
+}
+.st{
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+}
+
+#image-header{
+    background-image: url(images/image-header-desktop.jpg);
+    width: 540px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+@media(max-width:900px){
+    #card{
+        flex-direction: column;
+        margin: 50px 5px;
+        max-width: 300px;
+    }
+    #stats{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #middle{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #description{
+        justify-content: center;
+        align-items: center;
+        padding: 25px 10px;
+    }
+    h1{
+        max-width: 275px;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        max-width: 225px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #stat_desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #image_mobile{
+        background-image: url(images/image-header-mobile.jpg);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 10px;
+    }
+}
